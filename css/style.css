@@ -59,8 +59,13 @@ li {
 /* spazio per scritta "LEADERSHIP" */
 .spazio-del-titolo{
     height: 100px;      
-    background-color:#abcfe7;
+    background-color:#abcfe7;    
 }
+
+.spazio-del-titolo span{
+       
+}
+
 
 .container{
     background-color: #0087ff;
