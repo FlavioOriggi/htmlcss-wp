@@ -9,6 +9,7 @@ body{
     height: 100%;
     width: 70%;
     margin: auto ;
+    
 }
 
 /* spazio per menu superiore */
@@ -50,12 +51,11 @@ nav li a{
 
 /* spazio per immagine grande superiore */
 .copertina{    
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner.jpg);    
     border-radius: 10px;
     background-position: center;
     height: 400px;    /*in futuro l'altezza verrà tolta */
-    margin: 20px 0;
-    color: #f9f8f7;
+        
 }
 
 .copertina h3{
@@ -63,28 +63,38 @@ nav li a{
     padding-left: 50px;
 }
 
-.copertina p{
-    
-    padding-left: 50px;
+.copertina p{    
+    padding-left: 50px;    
 }
 
-
+#colore-testo-copertina{
+    color: #ffffff;
+}
 
 
 /* spazio per scritta "LEADERSHIP" */
 .spazio-del-titolo{
     height: 100px;      
-    background-color:#abcfe7;    
+    background-color:#ffffff;    
+}
+
+.spazio-del-titolo h3{
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.spazio-del-titolo p{
+    color: #8a8a8a;
 }
 
 .container{
-    background-color: #0087ff;
+    
 }
 
 /* margine per distanziare i blocchi dallo spazio del titolo */
 main{
     margin: 20px 0; 
-    background-color: #0087ff;
+    
     padding-bottom: 20px;
 }
 
@@ -96,59 +106,70 @@ main:after{
 }
 
 
-/* inizio blocchi incolonnati */
+/* colonna sx */
 .left-content{
-    background-color: #abcfe7;
+    
     width: 25%;
     float: left;
     height: 410px;    
 }
 
-.left-content img{
+.img-cln-left{
+    background-image: url(../img/img-1.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+    height: 200px;
     width: 100%;
     border-radius: 10px;
            
-}
-    
+}   
 
-
+/* colonna centrale */
 .content{
-    background-color: #abcfe7;
+    
     float: left;
     width: calc(50% - 30px);
-    margin: 0px 15px;    
+    margin: 0px 15px; 
+      
     
 }
 
-.content img{
+.img-cln-content{
+    background-image: url(../img/banner-2.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+    height: 200px; 
     width: 100%;
     border-radius: 10px;
-    height: 135px;
+    
 }
 
-.right-content{
-    background-color: #abcfe7;
+/* colonna di destra */
+.right-content{    
     width: 25%;       
-    float: left;  
+    float: left;       
 }
 
-.right-content img{
-    border-radius: 10px;         
-}
-
-#banner-cln{
+.right-img{
+    background-image: url(../img/img-3.jpg);
+    filter: brightness(80%);
+    background-size: cover;
     background-position: center;
-    background-size: auto;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;    
+    background-position: center;
+             
 }
-
-
-
-
-
 
 /* footer */
-footer{
-    background-color: #fbfbfb;
+footer{    
     height: 75px; 
     text-align: center;       
 }
