@@ -94,12 +94,28 @@ main:after{
     height: 410px;    
 }
 
+.left-content img{
+    width: 100%;
+    border-radius: 10px;
+    height: 135px;
+    background-image: url(../img/img-1.jpg);
+    background-size:auto;    
+}
+    
+
+
 .content{
     background-color: #abcfe7;
     float: left;
     width: calc(50% - 30px);
     margin: 0px 15px;
     height: 410px; 
+}
+
+.content img{
+    width: 100%;
+    border-radius: 10px;
+    height: 135px;
 }
 
 .right-content{
@@ -109,12 +125,22 @@ main:after{
     float: left;  
 }
 
+.right-content img{
+    width: 100%;
+    border-radius: 10px;
+    height: 135px;    
+}
+
 
 
 
 /* footer */
 footer{
-    background-color: #8801fe;
-    height: 75px;    
+    background-color: #fbfbfb;
+    height: 75px; 
+    text-align: center;       
 }
 
+#cuore-footer{
+    color: red
+}
