@@ -8,11 +8,11 @@ body{
     padding: 20px 60px;
     height: 100%;
     width: 70%;
-    margin: auto ;
-    
+    margin: auto ;    
 }
 
-/* spazio per menu superiore */
+
+/* ID menu superiore */
 .header-superiore{
     background-color: #ffffff;
     height: 50px; 
@@ -25,6 +25,7 @@ body{
     margin-right: 5px;
 }
 
+/* ID header-menu */
 .header-menu{    
     height: 60px;
     line-height: 60px;
@@ -75,7 +76,6 @@ nav li a{
 /* spazio per scritta "LEADERSHIP" */
 .spazio-del-titolo{
     height: 100px;      
-    background-color:#ffffff;    
 }
 
 .spazio-del-titolo h3{
@@ -87,17 +87,12 @@ nav li a{
     color: #8a8a8a;
 }
 
-.container{
-    
-}
 
 /* margine per distanziare i blocchi dallo spazio del titolo */
 main{
-    margin: 20px 0; 
-    
+    margin: 20px 0;     
     padding-bottom: 20px;
 }
-
 
 main:after{
     clear: both;
@@ -105,10 +100,18 @@ main:after{
     display: table;
 }
 
+/* testo delle colonne */
+main div p{
+    margin-top: 10px;
+}
+
+#p-di-grigio{    
+    color: #8a8a8a;
+}
+
 
 /* colonna sx */
-.left-content{
-    
+.left-content{    
     width: 25%;
     float: left;
     height: 410px;    
@@ -119,22 +122,19 @@ main:after{
     filter: brightness(80%);
     background-size: cover;
     background-position: center;
-
     border-radius: 10px;
     height: 200px;
     width: 100%;
-    border-radius: 10px;
-           
+    border-radius: 10px;           
 }   
 
+
 /* colonna centrale */
-.content{
-    
+.content{    
     float: left;
     width: calc(50% - 30px);
-    margin: 0px 15px; 
-      
-    
+    margin: 0px 15px;       
+  
 }
 
 .img-cln-content{
@@ -142,13 +142,12 @@ main:after{
     filter: brightness(80%);
     background-size: cover;
     background-position: center;
-
     border-radius: 10px;
     height: 200px; 
     width: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px;    
 }
+
 
 /* colonna di destra */
 .right-content{    
@@ -156,17 +155,17 @@ main:after{
     float: left;       
 }
 
-.right-img{
+.img-cln-right{
     background-image: url(../img/img-3.jpg);
     filter: brightness(80%);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
     height: 200px;
     width: 100%;
-    border-radius: 10px;    
-    background-position: center;
-             
+    border-radius: 10px;             
 }
+
 
 /* footer */
 footer{    
