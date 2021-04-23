@@ -44,9 +44,15 @@ li {
 
 /* spazio per immagine grande superiore */
 .copertina{    
-    background-color: #e1d67a;
+    background-image: url(../img/banner.jpg);
+    border-radius: 10px;
+    background-position: center;
     height: 400px;    /*in futuro l'altezza verrà tolta */
     margin: 20px 0; 
+}
+
+#testo-banner{
+    
 }
 
 
