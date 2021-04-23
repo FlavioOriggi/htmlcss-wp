@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px 60px;
+    height: 100%;
+    width: 70%;
+    margin: auto ;
+}
+
+/* spazio per menu superiore */
+.header-superiore{
+    background-color: #ffffff;
+    height: 50px; 
+    width: 130px;
+    border-right: 1px solid #e5e5e5;
+            
+}
+#logo-header{
+    height: 50px;
+    margin-right: 5px;
+}
+
+.header-menu{
+    background-color: #e579e6;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px; 
+    color: #8a8a8a;
+}
+
+.header-menu li {
+    margin: 0 10px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/* spazio per immagine grande superiore */
+.copertina{    
+    background-color: #e1d67a;
+    height: 400px;    /*in futuro l'altezza verrà tolta */
+    margin: 20px 0; 
+}
+
+
+/* spazio per scritta "LEADERSHIP" */
+.spazio-del-titolo{
+    height: 100px;      
+    background-color:#abcfe7;
+}
+
+.container{
+    background-color: #0087ff;
+}
+
+/* margine per distanziare i blocchi dallo spazio del titolo */
+main{
+    margin: 20px 0; 
+    background-color: #0087ff;
+    padding-bottom: 20px;
+}
+
+
+main:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+/* inizio blocchi incolonnati */
+.left-content{
+    background-color: #abcfe7;
+    width: 25%;
+    float: left;
+    height: 410px;    
+}
+
+.content{
+    background-color: #abcfe7;
+    float: left;
+    width: calc(50% - 30px);
+    margin: 0px 15px;
+    height: 410px; 
+}
+
+.right-content{
+    background-color: #abcfe7;
+    width: 25%;
+    height: 410px;   
+    float: left;  
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: #8801fe;
+    height: 75px;    
+}
+
