@@ -54,12 +54,21 @@ nav li a{
     border-radius: 10px;
     background-position: center;
     height: 400px;    /*in futuro l'altezza verrà tolta */
-    margin: 20px 0; 
+    margin: 20px 0;
+    color: #f9f8f7;
 }
 
-#testo-banner{
-    
+.copertina h3{
+    padding-top: 280px;
+    padding-left: 50px;
 }
+
+.copertina p{
+    
+    padding-left: 50px;
+}
+
+
 
 
 /* spazio per scritta "LEADERSHIP" */
@@ -67,11 +76,6 @@ nav li a{
     height: 100px;      
     background-color:#abcfe7;    
 }
-
-.spazio-del-titolo span{
-       
-}
-
 
 .container{
     background-color: #0087ff;
@@ -103,9 +107,7 @@ main:after{
 .left-content img{
     width: 100%;
     border-radius: 10px;
-    height: 135px;
-    background-image: url(../img/img-1.jpg);
-    background-size:auto;    
+           
 }
     
 
@@ -114,8 +116,8 @@ main:after{
     background-color: #abcfe7;
     float: left;
     width: calc(50% - 30px);
-    margin: 0px 15px;
-    height: 410px; 
+    margin: 0px 15px;    
+    
 }
 
 .content img{
@@ -126,16 +128,20 @@ main:after{
 
 .right-content{
     background-color: #abcfe7;
-    width: 25%;
-    height: 410px;   
+    width: 25%;       
     float: left;  
 }
 
 .right-content img{
-    width: 100%;
-    border-radius: 10px;
-    height: 135px;    
+    border-radius: 10px;         
 }
+
+#banner-cln{
+    background-position: center;
+    background-size: auto;
+}
+
+
 
 
 
