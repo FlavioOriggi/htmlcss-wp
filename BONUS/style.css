@@ -60,9 +60,11 @@ nav li a{
 
 /* spazio per immagine grande superiore */
 .copertina{    
-    background-image: url(../img/banner.jpg);    
-    border-radius: 10px;
+    background-image: url(img/banner-3.jpg);
     background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    
     height: 400px;    /*in futuro l'altezza verrà tolta */
         
 }
@@ -92,7 +94,6 @@ nav li a{
 
 /* spazio per scritta "LEADERSHIP" */
 .spazio-del-titolo{
-
     padding-left: 20px;
     height: 100px;      
 }
@@ -131,9 +132,12 @@ main div p{
 /* colonna centrale */
 .colonna{     
     float: left;
-    width: calc(100% / 3 - 80px);
-    height: 410px   
+    width: calc(100% / 3 - 50px);
+    height: 410px;    
+    margin-bottom: 10px;    
 }
+
+
 
 .img-cln{    
     filter: brightness(80%);
@@ -153,8 +157,7 @@ main div p{
     margin-top: 10px;
 }
 
-.testo p{
-    
+.testo p{    
     color: #8a8a8a;
 }
 
@@ -193,22 +196,18 @@ main div p{
 
 .terzacln{
     background-image: url(img/img-3.jpg);
-
 }
 
 .quartacln{
     background-image: url(img/img-4.jpg);
-
 }
 
 .quintacln{
     background-image: url(img/img-5.jpg);
-
 }
 
 .sestacln{
     background-image: url(img/img-6.jpg);
-
 }
 
             
