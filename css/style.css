@@ -59,6 +59,12 @@ nav li a{
         
 }
 
+.sfumatura-copertina{
+    background-color: rgba(37, 36, 36, 0.2);
+    border-radius: 10px;
+    height: 100%;
+}
+
 .copertina h3{
     padding-top: 280px;
     padding-left: 50px;
@@ -174,5 +180,7 @@ footer{
 }
 
 #cuore-footer{
-    color: red
+    color: red;
+    font-size: 20px;    
+    vertical-align: middle;
 }
