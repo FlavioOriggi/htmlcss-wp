@@ -128,33 +128,11 @@ main div p{
     color: #8a8a8a;
 }
 
-
-/* colonna sx */
-.left-content{    
-    width: 25%;
-    float: left;
-    height: 410px;    
-}
-
-.img-cln-left{
-    background-image: url(../img/img-1.jpg);
-    filter: brightness(80%);
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    height: 200px;
-    width: 100%;
-    border-radius: 10px;           
-}   
-
-
 /* colonna centrale */
-.colonna{ 
-    
+.colonna{     
     float: left;
     width: calc(100% / 3 - 80px);
-    height: 410px    
-  
+    height: 410px   
 }
 
 .img-cln{    
@@ -204,8 +182,33 @@ main div p{
 }
 
 
+/* sezione immagini colonne */
 .primacln{
     background-image: url(img/img-1.jpg);
+}
+
+.secondacln{
+    background-image: url(img/img-2.jpg);    
+}
+
+.terzacln{
+    background-image: url(img/img-3.jpg);
+
+}
+
+.quartacln{
+    background-image: url(img/img-4.jpg);
+
+}
+
+.quintacln{
+    background-image: url(img/img-5.jpg);
+
+}
+
+.sestacln{
+    background-image: url(img/img-6.jpg);
+
 }
 
             
