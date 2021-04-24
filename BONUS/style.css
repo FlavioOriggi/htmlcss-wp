@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.copertina, .container{
+    line-height: 25px;
+}
+
+body{
+    padding: 20px 60px;
+    height: 100%;
+    width: 65%;
+    margin: auto ;    
+}
+
+
+/* ID menu superiore */
+.header-superiore{
+    background-color: #ffffff;
+    height: 50px; 
+    width: 130px;
+    border-right: 1px solid #e5e5e5;
+            
+}
+#logo-header{
+    height: 50px;
+    margin-right: 5px;
+}
+
+/* ID header-menu */
+.header-menu{    
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;     
+}
+
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav li a{
+    color: #8a8a8a;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+#comando-tendina{
+    font-size: smaller;
+}
+
+
+/* spazio per immagine grande superiore */
+.copertina{    
+    background-image: url(../img/banner.jpg);    
+    border-radius: 10px;
+    background-position: center;
+    height: 400px;    /*in futuro l'altezza verrà tolta */
+        
+}
+
+.sfumatura-copertina{
+    background-color: rgba(37, 36, 36, 0.2);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.copertina h2{
+    font-size: 35px;
+    padding-top: 255px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+.copertina p{  
+    font-size: 15px;  
+    padding-left: 50px;    
+}
+
+#colore-testo-copertina{
+    color: #ffffff;
+}
+
+
+/* spazio per scritta "LEADERSHIP" */
+.spazio-del-titolo{
+
+    padding-left: 20px;
+    height: 100px;      
+}
+
+.spazio-del-titolo h1{    
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.spazio-del-titolo p{
+    color: #8a8a8a;
+}
+
+
+/* margine per distanziare i blocchi dallo spazio del titolo */
+main{
+    margin: 20px 0;     
+    padding-bottom: 20px;
+}
+
+main:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/* testo delle colonne */
+main div p{
+    margin-top: 10px;
+}
+
+#p-di-grigio{    
+    color: #8a8a8a;
+}
+
+
+/* colonna sx */
+.left-content{    
+    width: 25%;
+    float: left;
+    height: 410px;    
+}
+
+.img-cln-left{
+    background-image: url(../img/img-1.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;           
+}   
+
+
+/* colonna centrale */
+.colonna{ 
+    
+    float: left;
+    width: calc(100% / 3 - 80px);
+    height: 410px    
+  
+}
+
+.img-cln{    
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px; 
+    width: 100%;
+    border-radius: 10px;    
+}
+
+.cln-content{
+    padding-left: 10px;
+}
+
+.cln-content, .writeby{
+    margin-top: 10px;
+}
+
+.testo p{
+    
+    color: #8a8a8a;
+}
+
+#logo-cln{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.logo-e-testo {
+    font-size: 10px;
+    color: #8a8a8a;
+    line-height: 25px;
+}
+
+
+#testo-made-by{
+    border-right: 1px solid #e5e5e5;
+    padding-right: 10px;
+}
+
+#tempo-lettura{
+    padding-left: 5px;
+}
+
+
+.primacln{
+    background-image: url(img/img-1.jpg);
+}
+
+            
+
+
+/* footer */
+footer{    
+    height: 75px; 
+    text-align: center;       
+}
+
+#cuore-footer{
+    color: red;
+    font-size: 18px;    
+    vertical-align: middle;
+}
