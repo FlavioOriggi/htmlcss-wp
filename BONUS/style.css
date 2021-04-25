@@ -129,29 +129,66 @@ main div p{
     color: #8a8a8a;
 }
 
-/* colonna centrale */
-.colonna{     
+/* struttura sezione blocchi superiore */
+.left-content-superiore{
+    width: 30%;
     float: left;
-    width: calc(100% / 3 - 50px);
-    height: 410px;    
-    margin-bottom: 10px;    
+    height: 300px;
 }
 
-
-
-.img-cln{    
+.img-cln-left-superiore{
+    background-image: url(../img/img-1.jpg);
     filter: brightness(80%);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
-    height: 200px; 
+    height: 200px;
     width: 100%;
     border-radius: 10px;    
 }
 
-.cln-content{
-    padding-left: 10px;
+
+/* colonna centrale */
+.content-centrale-superiore{
+    float: left;
+    width: calc(33% - 0px);
+    margin: 0px 39px;
+    height: 300px;
+
+
 }
+
+.img-cln-content-centrale-superiore{
+    background-image: url(../img/img-2.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* colonna di destra */
+.right-content-superiore{
+    width: 30%;
+    float: left;
+    height: 300px;
+
+}
+
+.img-cln-right-superiore{
+    background-image: url(../img/img-3.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 .cln-content, .writeby{
     margin-top: 10px;
@@ -185,42 +222,5 @@ main div p{
 }
 
 
-/* sezione immagini colonne */
-.primacln{
-    background-image: url(img/img-1.jpg);
-}
+           
 
-.secondacln{
-    background-image: url(img/img-2.jpg);    
-}
-
-.terzacln{
-    background-image: url(img/img-3.jpg);
-}
-
-.quartacln{
-    background-image: url(img/img-4.jpg);
-}
-
-.quintacln{
-    background-image: url(img/img-5.jpg);
-}
-
-.sestacln{
-    background-image: url(img/img-6.jpg);
-}
-
-            
-
-
-/* footer */
-footer{    
-    height: 75px; 
-    text-align: center;       
-}
-
-#cuore-footer{
-    color: red;
-    font-size: 18px;    
-    vertical-align: middle;
-}
