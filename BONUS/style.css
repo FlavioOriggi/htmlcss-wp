@@ -63,10 +63,8 @@ nav li a{
     background-image: url(img/banner-3.jpg);
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
-    
-    height: 400px;    /*in futuro l'altezza verrà tolta */
-        
+    border-radius: 10px;    
+    height: 400px;    /*in futuro l'altezza verrà tolta */        
 }
 
 .sfumatura-copertina{
@@ -95,16 +93,19 @@ nav li a{
 /* spazio per scritta "LEADERSHIP" */
 .spazio-del-titolo{
     padding-left: 20px;
-    height: 100px;      
+    height: 100px;   
+    margin-bottom: 20px;   
 }
 
 .spazio-del-titolo h1{    
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .spazio-del-titolo p{
     color: #8a8a8a;
+    font-size: 16px;
 }
 
 
@@ -125,15 +126,21 @@ main div p{
     margin-top: 10px;
 }
 
-#p-di-grigio{    
+.centratura-testo{
+    margin: 15px 15px; 
+}
+
+
+#p-di-grigio{       
     color: #8a8a8a;
 }
 
 /* struttura sezione blocchi superiore */
+
 .left-content-superiore{
     width: 30%;
     float: left;
-    height: 300px;
+    height: 450px;    
 }
 
 .img-cln-left-superiore{
@@ -147,15 +154,12 @@ main div p{
     border-radius: 10px;    
 }
 
-
-/* colonna centrale */
 .content-centrale-superiore{
     float: left;
-    width: calc(33% - 0px);
-    margin: 0px 39px;
-    height: 300px;
-
-
+    width: calc(30% - 0px);
+    margin: 0px 55px;
+    height: 450px;
+    
 }
 
 .img-cln-content-centrale-superiore{
@@ -169,13 +173,11 @@ main div p{
     border-radius: 10px;
 }
 
-
-/* colonna di destra */
 .right-content-superiore{
     width: 30%;
     float: left;
-    height: 300px;
-
+    height: 450px;
+    
 }
 
 .img-cln-right-superiore{
@@ -190,6 +192,63 @@ main div p{
 }
 
 
+/* struttura sezione blocchi inferiore */
+.left-content-inferiore{
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+.img-cln-left-inferiore{
+    background-image: url(../img/img-4.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;    
+}
+
+.content-centrale-inferiore{
+    float: left;
+    width: calc(30% - 0px);
+    margin: 0px 55px;
+    height: 300px;
+}
+
+.img-cln-content-centrale-inferiore{
+    background-image: url(../img/img-5.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-content-inferiore{
+    width: 30%;
+    float: left;
+    height: 300px;
+}
+
+.img-cln-right-inferiore{
+    background-image: url(../img/img-6.jpg);
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+/* sezione struttura footer dei blocchi */
 .cln-content, .writeby{
     margin-top: 10px;
 }
@@ -203,6 +262,7 @@ main div p{
     width: 20px;
     border-radius: 50%;
     vertical-align: middle;
+    margin-right: 4px;
 }
 
 .logo-e-testo {
@@ -215,6 +275,10 @@ main div p{
 #testo-made-by{
     border-right: 1px solid #e5e5e5;
     padding-right: 10px;
+}
+
+#spazione-autore{
+    margin-right: 5px;
 }
 
 #tempo-lettura{
